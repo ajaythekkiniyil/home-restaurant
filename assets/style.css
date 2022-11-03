@@ -513,4 +513,7 @@ footer span{
     footer{
         padding: 20px;
     }
+    section.farm-products:before {
+        width: 100% !important;
+    }
 }

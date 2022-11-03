@@ -1,0 +1,516 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-header {
+    padding: 20px 0;
+}
+
+.logo {
+    width: 65px;
+}
+
+.open-btn {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.open-btn:hover {
+    color: #fe7606;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.banner {
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    height: 87vh;
+    width: 100%;
+    background-position: center;
+    color: #fff;
+}
+
+.banner-title {
+    font-size: 80px;
+    line-height: 85px;
+    padding: 150px 0 0 0;
+    width: 679px;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.banner-title b {
+    font-weight: 800;
+}
+
+.banner-sub {
+    width: 475px;
+    font-size: 18px;
+}
+
+.banner-btn {
+    color: #fe7606;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.underline {
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.banner-btn:hover {
+    color: #f06d01;
+}
+
+.burger-img {
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/burger.jpg);
+    background-position: center;
+    width: 92%;
+    height: 440px;
+    background-size: cover;
+}
+
+.coffe-img {
+    background-image: url(./images/cofee.jpg);
+    padding: 0;
+    margin: 220px 0 0 0;
+    background-position: center;
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+}
+
+.menu .title {
+    padding: 65px 0 30px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.menu .para {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.menu .learn-more {
+    color: #f06d01;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.black-box {
+    margin-top: 40px;
+    width: 250px;
+    height: 70px;
+    background: #111;
+}
+
+.yellow-box {
+    position: absolute;
+    background-color: #f1c50e;
+    width: 63%;
+    height: 220px;
+    z-index: -1;
+}
+
+.orange-box {
+    position: absolute;
+    background-color: #f06d01;
+    width: 35%;
+    height: 220px;
+    z-index: -1;
+    margin: -370px 0px;
+}
+
+.learn-online {
+    margin: 60px 0 0 0;
+    background: url(./images/condiments-prepare-italian-pasta.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 0 0 100px 0;
+    color: #fff;
+    position: relative;
+}
+
+/* .learn-online:before{
+    content: "";
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+} */
+.learn-online .title {
+    font-family: 'Playfair Display', serif !important;
+    color: #fe7606;
+    font-size: 70px;
+    padding: 100px 0 0;
+    z-index: 2222;
+    font-weight: 500;
+}
+
+.learn-online b {
+    font-weight: 700;
+}
+
+.learn-online .para {
+    font-size: 18px;
+}
+
+.box-one {
+    padding: 10px 25px 50px 25px;
+    background: #fff;
+    color: #000;
+}
+
+.box-one .number {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 130px;
+    font-weight: 400;
+}
+
+.box-one .subtitle {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.box-two {
+    padding: 10px 25px 50px 25px;
+    background: rgba(0, 0, 0, 0.795);
+}
+
+.box-two .number {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 130px;
+    font-weight: 400;
+    color: #f06d01;
+}
+
+.box-two .subtitle {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.box-three {
+    padding: 10px 25px 50px 25px;
+    background: #f06d01;
+}
+
+.box-three .number {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 130px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.box-three .subtitle {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.box-three .banner-btn {
+    color: #fff;
+}
+.asian-food{
+    margin: -80px 0;
+}
+.asian-food .left {
+    background-color: #fff;
+    text-align: right;
+    padding: 0 20px;
+    height: 500px;
+}
+.left p{
+    padding: 0 0 0 260px;
+    font-size: 17px;
+}
+.right p{
+    padding: 0 260px 0 0; 
+    font-size: 17px;
+}
+.asian-food .right {
+    background-color: #f1c50e;
+    padding: 0 20px;
+    height: 500px;
+}
+.asian-food h1{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 65px;
+    font-weight: 600;
+    padding: 80px 0 40px 0;
+}
+.three-imgs{
+    width: 100%;
+    height: 430px;
+    padding: 5px;
+}
+.three-imgs-box {
+    position: relative;
+    top: -150px;
+}
+.asian-food{
+    margin: 0 0 -100px 0;
+}
+.meat-fish img{
+    width: 100%;
+}
+.meat-fish h1{
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+    /* letter-spacing: 2px; */
+    color: #000;
+}
+.meat-fish{
+    background-color: #f1c50e;
+}
+.vegitable1{
+    background: url(./images/vegitable1.jpg) no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 10px;
+    padding: 0;
+}
+.vegitable2{
+    background: url(./images/vegitable2.jpg) no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 10px;
+    padding: 0;
+}
+.farm-products .title{
+    font-size: 40px;
+    color: #fe7606;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif !important;
+}
+.farm-products .para{
+    padding-top: 12px;
+    font-size: 17px;
+}
+section.farm-products:before {
+    content: '';
+    background: #f06d01;
+    position: absolute;
+    width: 520px;
+    height: 290px;
+    z-index: -1;
+}
+footer{
+    background: url(./images/footer-img.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: #fff;
+}
+footer .title{
+    padding: 550px 0 0 0;
+    font-weight: 200;
+    letter-spacing: 7px;
+    font-family: 'Playfair Display', serif !important;
+}
+footer .para{
+    font-size: 17px;
+}
+footer img{
+    width: 60px;
+    margin-top: 520px;
+}
+footer span{
+    font-family: 'Playfair Display', serif !important;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+/* very large screen */
+@media(min-width:2000px) {
+    .banner {
+        height: 50vh !important;
+    }
+}
+
+@media (max-width:768px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .banner {
+        background-size: inherit;
+    }
+
+    .banner-title {
+        font-size: 45px;
+        width: 95%;
+        line-height: 45px;
+        padding: 85px 0 0 0;
+    }
+
+    .banner-sub {
+        width: 335px;
+        font-size: 18px;
+    }
+
+    .banner-btn {
+        font-size: 16px;
+    }
+
+    .yellow-box {
+        width: 100%;
+    }
+
+    .black-box {
+        margin-top: 21px;
+        height: 50px;
+    }
+
+    .coffe-img {
+        margin: 50px 0 0 0;
+        width: 95%;
+        height: 260px;
+    }
+
+    .burger-img {
+        margin: 0 40px;
+        width: 80%;
+    }
+
+    .black-box {
+        display: none;
+    }
+    .learn-online .title {
+        font-size: 55px;
+    }
+    .left p{
+        padding: 0 0 0 120px;
+    }
+    .right p{
+        padding: 0 120px 0 0; 
+    }
+    .three-imgs {
+        height: 300px;
+    }
+}
+
+@media(max-width:425px) {
+    .top-header {
+        padding: 20px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .yellow-box {
+        margin: 338px -20px;
+    }
+
+    .menu .title {
+        padding: 0;
+    }
+
+    .orange-box {
+        margin: -190px 244px;
+    }
+
+    .coffe-img {
+        margin: 30px 0 0 0;
+    }
+
+    .menu .para {
+        margin-bottom: 15px;
+    }
+    .learn-online  {
+        padding: 0 20px 20px; 
+    }
+    .learn-online .title {
+        font-size: 53px;
+    }
+    .left p{
+        padding: 0 0 0 20px;
+    }
+    .right p{
+        padding: 0 20px 0 0; 
+    }
+    .three-imgs-box {
+        top: -60px;
+    }
+    .asian-food {
+        margin: 0 0 -20px 0;
+    }
+    .meat-fish h1{
+        padding: 20px;
+    }
+    .vegitable1{
+        margin: 20px;
+    }
+    .vegitable2{
+        margin: 20px;
+    }
+    footer .title {
+        padding: 380px 0 0 0;
+    }
+    footer img{
+        margin: 10px 0;
+    }
+    footer{
+        padding: 20px;
+    }
+}
